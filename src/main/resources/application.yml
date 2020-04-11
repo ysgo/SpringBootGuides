@@ -1,0 +1,26 @@
+server:
+  port: 8080
+  
+spring:
+  application:
+    name: spring-boot-guides
+  main:
+    allow-bean-definition-overriding: true
+  output:
+    ansi:
+      enabled: NEVER
+  devtools:
+    livereload:
+      enabled: true
+
+logging:
+  pattern:
+    console: '%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n'
+    file: '%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n'
+  level:
+    root: ERROR
+    org:
+      springframework:
+        web: DEBUG
+        security: DEBUG
+      hibernate: DEBUG
