@@ -1,5 +1,0 @@
-rootProject.name = 'spring-boot-guides'
-include 'spring-boot-jpa'
-include 'spring-boot-mybatis'
-include 'spring-boot-websocket'
-include 'spring-boot-batch'
