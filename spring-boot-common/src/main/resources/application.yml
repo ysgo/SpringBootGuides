@@ -1,0 +1,22 @@
+server:
+  port: 8050
+
+spring:
+  application:
+    name: spring-boot-common
+  main:
+    allow-bean-definition-overriding: true
+  devtools:
+    livereload:
+      enabled: true
+
+logging:
+  pattern:
+    console: '%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n'
+  level:
+    root: ERROR
+    org:
+      springframework:
+        web: DEBUG
+        security: DEBUG
+      hibernate: DEBUG
