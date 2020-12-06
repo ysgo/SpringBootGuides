@@ -1,9 +1,9 @@
 server:
-  port:
+  port: 8051
 
 spring:
   application:
-    name: spring-boot-common
+    name: spring-boot-websocket
   main:
     allow-bean-definition-overriding: true
   devtools:
