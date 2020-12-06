@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: spring-boot-websocket
+    name: spring-boot-websocket-stomp
   main:
     allow-bean-definition-overriding: true
   devtools:

@@ -40,7 +40,7 @@ subprojects {
     }
 }
 
-project(':spring-boot-websocket') {
+project(':spring-boot-websocket-stomp') {
     dependencies {
         compile project(':spring-boot-common')
     }
